@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# This scripts builds a Cura AppImage using a docker container. The docker base
+#  This scripts builds a Cura AppImage using a docker container. The docker base
 # image it uses is "cura-build-env:centos7", which can be created with the
 # cura-build-environment repository. The AppImage will be created under the
 # directory "appimages", which will be created if it's not present. Note that
