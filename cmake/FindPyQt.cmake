@@ -1,4 +1,4 @@
-# Copyright 2022 Zmorph
+# Copyright 2016 Ultimaker B.V.
 
 include(FindPythonPackage)
 

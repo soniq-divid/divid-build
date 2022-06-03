@@ -18,7 +18,11 @@ $second_number = $branch_array[1],
   [string]$LibCharonBranchOrTag = $branch,
 
 # Cura release parameters
+
+
   [string]$CuraVersionExtra = "",
+
+
   [string]$CuraBuildType = "",
   [string]$NoInstallPlugins = "",
   [string]$CloudApiRoot = "https://api.ultimaker.com",
