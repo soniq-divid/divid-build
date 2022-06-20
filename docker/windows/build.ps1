@@ -42,13 +42,17 @@ $second_number = $branch_array[1],
 if ($branch -eq "master") {
   [int32]$CuraVersionMajor = "0"
   [int32]$CuraVersionMinor = "0"
-  [int32]$CuraVersionPatch  = "0"
+  [int32]$CuraVersionPatch = "0"
 
 }
 else {
-  [int32]$CuraVersionMajor = $fisrt_number
-  [int32]$CuraVersionMinor = $second_number
-  [int32]$CuraVersionPatch  = "1"
+# commented lines is for name app version from branch version 
+#  [int32]$CuraVersionMajor = $fisrt_number
+#  [int32]$CuraVersionMinor = $second_number
+#  [int32]$CuraVersionPatch  = "1"
+[int32]$CuraVersionMajor = "1"
+[int32]$CuraVersionMinor = "0"
+[int32]$CuraVersionPatch = "0"
 }
 
 $ErrorActionPreference = "Continue"
